@@ -47,3 +47,11 @@ p{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.two{
+    background-image: url(biography-bg.png);
+    height: 500px;
+}
+.two img{
+    width: 100%;
+
+}
