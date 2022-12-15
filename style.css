@@ -1,13 +1,17 @@
 body{
     margin: 0;
 }
-h3{
+.hello {
     font-family: 'Passion One', cursive;
+    font-size: 30px;
+
 }
 .colorit{
     color: palevioletred;
     font-weight: 700;
-    font-size: 25px
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 p{
     font-family: 'Yantramanav', sans-serif;
@@ -53,5 +57,27 @@ p{
 }
 .two img{
     width: 100%;
+}
+#paragraphtwo{
+    margin-top: 120px;
+    margin-left: -80px;
+    padding-left: 0;
 
+}
+#picturetwo{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.biograph{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-cv{ text-decoration: none;
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
