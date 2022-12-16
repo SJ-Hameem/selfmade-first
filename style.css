@@ -20,7 +20,7 @@ p{
 .one{
     background-image: url(header-bg.png);
     height: 500px;
-    margin-top: 4%;
+    margin-top: 5%;
     
 }
 .half-width{
@@ -60,7 +60,7 @@ p{
 }
 #paragraphtwo{
     margin-top: 120px;
-    margin-left: -80px;
+    margin-left: -100px;
     padding-left: 0;
 
 }
@@ -80,4 +80,38 @@ p{
     font-weight: 700;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.three{
+    
+    background-image: url(latest-work-bg.png);
+    height: 500px;
+    width: 80%;
+    background-image: url(latest-work-bg.png);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+       "a b c";
+   
+}
+.one-work{
+    grid-area: a;
+    width: 400px;
+    height: 400px;
+}
+.two-work{
+    grid-area: b;
+    width: 400px;
+    height: 400px;
+   
+}
+.three-work{
+    grid-area: c;
+    width: 400px;
+    height: 400px;
+    
+}
+.latest{
+    width: 80%;
+    height: 100%;
+    text-align: center;
 }
