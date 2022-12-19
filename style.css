@@ -53,7 +53,7 @@ p{
 }
 .two{
     background-image: url(biography-bg.png);
-    height: 500px;
+    height: 600px;
 }
 .two img{
     width: 100%;
@@ -81,37 +81,41 @@ p{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.latest{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-self: end;
+}
+.latest-work{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .three{
-    
+    margin-left: 90px;
     background-image: url(latest-work-bg.png);
     height: 500px;
-    width: 80%;
-    background-image: url(latest-work-bg.png);
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);  
     grid-template-areas: 
        "a b c";
-   
+    grid-gap: -100px;    
 }
 .one-work{
     grid-area: a;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
 }
 .two-work{
     grid-area: b;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
    
 }
 .three-work{
     grid-area: c;
-    width: 400px;
-    height: 400px;
-    
-}
-.latest{
-    width: 80%;
-    height: 100%;
-    text-align: center;
+    width: 300px;
+    height: 300px;  
 }
